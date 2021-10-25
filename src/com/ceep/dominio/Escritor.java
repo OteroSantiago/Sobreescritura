@@ -19,7 +19,7 @@ public class Escritor extends Empleado {
     //metodo
     @Override
     public String mostrarDetalles(){
-        return super.mostrarDetalles()+", Escritorio: "+this.tipoEscritura;
+        return super.mostrarDetalles()+", Escritura: "+this.tipoEscritura;
     }
 
     public TipoEscritura getTipoEscritura() {
